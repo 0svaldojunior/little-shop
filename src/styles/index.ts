@@ -1,8 +1,8 @@
-import { createStitches } from "@stitches/react";
+import { createStitches } from '@stitches/react'
 
 export const {
   config,
-  styled, 
+  styled,
   css,
   globalCss,
   keyframes,
@@ -36,5 +36,5 @@ export const {
       xl: '1.5rem',
       '2xl': '2rem',
     },
-  }
+  },
 })

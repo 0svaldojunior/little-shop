@@ -1,6 +1,6 @@
-import { styled } from "..";
+import { styled } from '..'
 
-export const HomeContainer = styled('main' ,{
+export const HomeContainer = styled('main', {
   display: 'flex',
   // gap: '3rem',
   width: '100%',
@@ -9,7 +9,7 @@ export const HomeContainer = styled('main' ,{
   minHeight: 656,
 })
 
-export const Product = styled('a', {
+export const Product = styled('div', {
   background: '$linear',
   borderRadius: 8,
   // padding: '0.25rem',
@@ -46,6 +46,7 @@ export const Product = styled('a', {
 
     strong: {
       fontSize: '$lg',
+      color: '$gray300',
     },
 
     span: {
@@ -54,11 +55,11 @@ export const Product = styled('a', {
       color: '$green300',
     },
   },
-  
+
   '&:hover': {
     footer: {
       transform: 'translateY(0%)',
       opacity: 1,
-    }
-  }
+    },
+  },
 })
